@@ -1,0 +1,283 @@
+* {
+   max-width: 1600px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+.wrapper {
+   position: relative;
+   width: 80%;
+   height: 835px;
+   background: white;
+   margin: 20px;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+
+.header {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: x-large;
+
+
+}
+
+.main {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.team {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.lesson {
+   width: 100px;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+
+}
+
+.conteiner {
+   height: 550px;
+   background: #EAEBED;
+   border-radius: 41px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.menu {
+   height: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.menu-item {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+   color: #323232;
+   white-space: nowrap;
+   width: 200px;
+}
+
+.lesson-1 {
+   width: 138px;
+   height: 40px;
+  
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.topic {
+   width: 138px;
+   height: 40px;
+  
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.date {
+   
+   width: 138px;
+   height: 40px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.dowload {
+  
+   width: 138px;
+   height: 40px;
+ 
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   text-align: center;
+
+   color: #323232;
+
+}
+
+.block {
+   
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   flex-grow: 1;
+   gap: 10px
+}
+
+.list-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+   border-radius: 10px;
+   margin-left: 70px
+}
+
+.list-item:hover {
+   background: white;
+}
+
+.list-item-element {
+   width: 200px;
+   text-align: center;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+
+.list-item:hover .type input~.check {
+   background-color: rgb(39, 36, 209);
+}
+
+.type {
+   position: relative;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 35px;
+   height: 35px;
+   margin-left: 20px;
+}
+
+.type input {
+   position: absolute;
+   opacity: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+   top: 0;
+   left: 0;
+}
+
+.type input~.check {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: white;
+   border-radius: 10px;
+}
+
+.type:hover input~.check {
+   background-color: rgb(39, 36, 209);
+}
+
+.type input:checked~.check {
+   background-color: rgb(54, 23, 178);
+}
+
+.check:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+.type input:checked~.check:after {
+   display: block;
+}
+
+/* Style the checkmark/indicator */
+.type .check:after {
+   left: 14px;
+   top: 9px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.download-button {
+   padding: 5px;
+   width: max-content;
+   margin: 0 auto;
+   border-radius: 10px;
+}
+
+.download-button:hover {
+   background-color: blue;
+}
+
+.download-icon {
+   width: 35px;
+   height: 35px;
+}
+
+.download-button:hover .download-icon svg path {
+   fill: white
+}
+
+

@@ -1,0 +1,427 @@
+* {
+   max-width: 1660px; 
+   box-sizing: border-box; 
+}
+
+.wrapper {
+  
+   width: 1600px;
+   background: white;
+   margin: 20px auto;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.header {
+   display: flex;
+   gap: 20px;
+   /* відстань між елементами які виступають рядками та колонками */
+   text-align: center;
+   font-size: x-large;
+  
+}
+
+.menu-1 {
+   padding: 10px;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+
+.menu-2 {
+   padding: 10px;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.menu-3 {
+   padding: 10px;
+   font-family: Open Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.container {
+   width: 100%;
+   height: 700px;
+   background: rgba(217, 217, 217, 1);
+   display: flex;
+   border-radius: 10px;
+   flex-direction: row;
+}
+
+.left {
+   width: 15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 15%;
+}
+
+
+.start {
+   width: 90px;
+   height: 400x;
+   border-radius: 20px;
+   background: rgba(254, 254, 254, 1);
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   max-width: 100px;
+   box-sizing: border-box;
+}
+
+.start1 {
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: blue;
+   padding: 8px;
+   position: relative;
+   transition: 2s;
+   
+}
+
+.svg_inline1 path {
+   fill: rgb(250, 248, 248);
+}
+
+.start1:hover {
+   width: 140px;
+}
+
+
+.start1:hover .svg_inline1::after {
+   display: inline-block;
+   transition: 3s;
+    
+}
+
+.svg_inline1::after {
+   content: "Project";
+   display: none;
+   position: absolute;
+   color: white;
+   font-size: 16px;
+   padding: 10px 15px;
+
+}
+
+.start2 {
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 10px;
+   transition: 1s;
+   position: relative;
+  
+}
+
+.start2:hover {
+   width: 140px;
+   background-color: blue;
+   fill: rgb(250, 248, 248);
+}
+
+.start2:hover .svg_inline2::after {
+   display: inline-block; 
+}
+
+
+.svg_inline2::after {
+   content: "Account" ;
+   display: none;
+   position: absolute;
+   color: white;
+   font-size: 16px;
+   padding: 10px 15px;
+}
+
+
+.start3 {
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 10px;
+   transition: 1s;
+   position: relative;
+  
+}
+
+.start3:hover {
+   width: 140px;
+   background-color: blue;
+   fill: rgb(250, 248, 248);
+}
+
+.start3:hover .svg_inline3::after {
+   display: inline-block;  
+}
+
+
+.svg_inline3::after {
+   content: "Groups";
+   display: none;
+   position: absolute;
+   color: white;
+   font-size: 16px;
+   padding: 10px 15px;
+
+}
+
+.start4 {
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 10px;
+   transition: 1s;
+   position: relative;
+  
+}
+
+.start4:hover {
+   width: 140px;
+   background-color: blue;
+   fill: rgb(250, 248, 248);
+}
+
+.start4:hover .svg_inline4::after {
+   display: inline-block;  
+}
+
+
+.svg_inline4::after {
+   content: "Cloud";
+   display: none;
+   position: absolute;
+   color: white;
+   font-size: 16px;
+   padding: 10px 15px;
+
+}
+
+.start5 {
+   border-radius: 10px;
+   cursor: pointer;
+   padding: 10px;
+   transition: 1s;
+   position: relative;
+  
+}
+
+.start5:hover {
+   width: 140px;
+   background-color: blue;
+   fill: rgb(250, 248, 248);
+}
+
+.start5:hover .svg_inline5::after {
+   display: inline-block;  
+}
+
+
+.svg_inline5::after {
+   content: "Setting";
+   display: none;
+   position: absolute;
+   color: white;
+   font-size: 16px;
+   padding: 10px 15px;
+
+}
+
+
+.bottom {
+   width: 100%;
+   height: 80%;
+   display: flex;
+   justify-content: space-around; 
+
+
+}
+
+
+
+.container-1 {
+   width: 1600px;
+   height: 620px;
+   display: flex;
+   position: relative;
+   margin: 35px 20px;
+   border-radius: 10px;
+
+}
+
+.html {
+   width: 650px;
+   height: 150px;
+   background: white;
+   border-radius: 10px;
+   position: absolute;
+   left: 15px;
+   top: 20px;
+
+}
+
+.progeck {
+   position: absolute;
+   width: 150px;
+   height: 20px;
+   left: 60px;
+   top: 40px;
+
+   font-family: Open Sans;
+   font-size: 20px;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.logos {
+   width: 650px;
+   height: 150px;
+   background: white;
+   border-radius: 10px;
+   position: absolute;
+   right: 15px;
+   top: 15px;
+
+}
+
+.company {
+   position: absolute;
+   width: 300px;
+   height: 100px;
+   left: 60px;
+   top: 40px;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: 0em;
+   font-family: Open Sans;
+   line-height: 20px;
+
+}
+
+
+.Description {
+   width: 850px;
+   height: 200px;
+   background: white;
+   border-radius: 10px;
+   position: absolute;
+   left: 15px;
+   top: 185px;
+
+}
+
+.discrspt{
+   position: absolute;
+   width: 650px;
+   height: 100px;
+   left: 60px;
+   top: 30px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 25px;
+   font-family: Open Sans;
+
+}
+
+.team {
+   width: 850px;
+   height: 200px;
+   background: white;
+   border-radius: 10px;
+   position: absolute;
+   left: 15px;
+   bottom: 15px;
+
+}
+
+.tea {
+   position: absolute;
+   width: 500px;
+   height: 100px;
+   left: 300px;
+   top: 40px;
+
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 25px;
+
+}
+
+.img-team {
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   left: 50px;
+   top: 50px;
+   background: url(./img6/team.jpg) no-repeat;
+   background-size: cover;
+
+}
+
+.data {
+   width: 460px;
+   height: 425px;
+   background: white;
+   border-radius: 10px;
+   position: absolute;
+   right: 15px;
+   bottom: 15px;
+
+}
+
+.dta {
+   position: absolute;
+   width: 300px;
+   height: 298px;
+   left: 100px;
+   top: 180px;
+
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+
+}
+
+.img-data {
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   left: 50px;
+   top: 50px;
+   background: url(./img6/data.jpg) no-repeat;
+   background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
